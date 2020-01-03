@@ -2,7 +2,7 @@ service: python-ec2-start-stop
 provider:
   name: aws
   runtime: python2.7
-  region: us-east-1
+  region: eu-west-1
   profile: serverless-admin
   memorySize: 128
   iamRoleStatements:
